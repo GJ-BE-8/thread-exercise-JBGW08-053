@@ -17,7 +17,7 @@ import com.nhnacademy.thread.CounterIncreaseHandler;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class App 
+public class App
 {
 
     public static void main( String[] args )
@@ -42,6 +42,7 @@ public class App
 
         //threadB를 시작 합니다.
         threadB.start();
+
 
         //main thread가 실행 후 20초 후 threadA, threadB 종료될 수 있도록 interrupt 발생 시킵니다.
         try {
