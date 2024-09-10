@@ -17,7 +17,7 @@ import com.nhnacademy.thread.CounterIncreaseHandler;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class App 
+public class App
 {
 
     public static void main( String[] args )
